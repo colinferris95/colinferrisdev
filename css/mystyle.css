@@ -1,41 +1,52 @@
-// 1. Import the initial variables
-@import "../sass/utilities/initial-variables";
-@import "../sass/utilities/functions";
+.picture-main{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+	text-align: center;
+	
+	
+}
 
-// 2. Set your own initial variables
-// Update blue
-$blue: #72d0eb;
-// Add pink and its invert
-$pink: #ffb3b3;
-$pink-invert: #fff;
-// Add a serif family
-$family-serif: "Merriweather", "Georgia", serif;
 
-// 3. Set the derived variables
-// Use the new pink as the primary color
-$primary: $pink;
-$primary-invert: $pink-invert;
-// Use the existing orange as the danger color
-$danger: $orange;
-// Use the new serif family
-$family-primary: $family-serif;
+.education-main{
+	
+	margin: auto;
+    width: 60%;
+    padding-bottom: 60px;
+	text-align: center;
+	
+}
 
-// 4. Setup your Custom Colors
-$linkedin: #0077b5;
-$linkedin-invert: findColorInvert($linkedin);
-$twitter: #55acee;
-$twitter-invert: findColorInvert($twitter);
-$github: #333;
-$github-invert: findColorInvert($github);
+.hero-main{
+	    height: 55vh;
+	
+}
 
-// 5. Add new color variables to the color map.
-@import "../sass/utilities/derived-variables.sass";
-$addColors: (
-  "twitter":($twitter, $twitter-invert),
-  "linkedin": ($linkedin, $linkedin-invert),
-  "github": ($github, $github-invert)
-);
-$colors: map-merge($colors, $addColors);
 
-// 6. Import the rest of Bulma
-@import "../bulma";
+
+.project-picture{
+	margin: auto;
+	text-align: center;
+	
+}
+
+.navbar{
+	transition: 0.3s;
+	
+}
+
+.desc{
+	text-align: center;
+	
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.columns{
+  padding: 20px;	
+	
+}
