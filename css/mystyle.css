@@ -23,7 +23,7 @@
 	
 }
 
-@media(max-width: 767px) {
+@media(max-width: 800px) {
 	.title.is-1{
 	font-size: 7vw;
 	
@@ -39,13 +39,42 @@
 	}
 
 }
-
-
 .project-picture{
 	margin: auto;
 	text-align: center;
 	
 }
+
+.project-picture img{
+	margin: auto;
+	text-align: center;
+	transition: transform .4s ease-in-out;
+}
+.project-picture img:hover {
+	transform: scale(1.05); 
+	
+}
+
+.links img{
+	transition: transform .4s ease-in-out;
+	
+}
+
+.links img:hover{
+	transform: scale(1.05); 
+	
+}
+
+.links div{
+	transition: transform .4s ease-in-out;
+	
+}
+
+.links div:hover{
+	transform: scale(1.05); 
+	
+}
+
 
 .navbar{
 	transition: 0.3s;
@@ -68,7 +97,7 @@
 	
 }
 
-@media(max-width: 767px) {
+@media(max-width: 800px) {
   .custom-columns {
     flex-direction: column-reverse;
     display: flex;
