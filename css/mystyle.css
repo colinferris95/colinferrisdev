@@ -20,6 +20,7 @@
 
 .hero-main{
 	    height: 75vh;
+	    background-color:#3A3276;
 	
 }
 
@@ -77,8 +78,33 @@
 
 
 .navbar{
-	transition: 0.3s;
+	background-color:#BC7DAC;
 	
+}
+
+.navbar-burger{
+	background-color:#BC7DAC;
+
+}
+
+.navbar-menu{
+	background-color:#BC7DAC;
+
+}
+
+.navbar-item{
+	background-color:#BC7DAC;
+	color:#361356;
+}
+
+.navbar-item:hover{
+	background-color:#BC7DAC;
+	color:#361356;
+}
+
+.logo{
+
+	color:#361356;
 }
 
 .desc{
@@ -103,3 +129,12 @@
     display: flex;
   }
 }
+
+.button.is-link{
+	background-color:#847EB1;
+
+}
+.button.is-link:hover{
+	background-color:#847EB1;
+}
+
