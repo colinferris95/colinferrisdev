@@ -24,6 +24,10 @@
 	
 }
 
+.hero-contact{
+	background-color:#AAA439;
+}
+
 @media(max-width: 800px) {
 	.title.is-1{
 	font-size: 7vw;
