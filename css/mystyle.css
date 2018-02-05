@@ -97,8 +97,8 @@
 	color:#361356;
 }
 
-.navbar-item:hover{
-	background-color:#BC7DAC;
+a.navbar-item:hover{
+	background-color:rgba(0,0,0,.08);
 	color:#361356;
 }
 
@@ -137,4 +137,30 @@
 .button.is-link:hover{
 	background-color:#847EB1;
 }
+
+.button{
+	border: 1px solid transparent;
+    border-top-color: rgb(157, 78, 137);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(157, 78, 137);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(157, 78, 137);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(157, 78, 137);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.button:hover{
+	border-color:rgb(94, 16, 75);
+}
+
 
