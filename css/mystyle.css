@@ -147,11 +147,11 @@ a.navbar-item:hover{
 }
 
 .button.is-link{
-	background-color:#847EB1;
+	background-color:rgb(157, 78, 137);
 
 }
 .button.is-link:hover{
-	background-color:#847EB1;
+	background-color:#9a4c81;
 }
 
 .button{
