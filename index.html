@@ -37,6 +37,10 @@
   }
 
 });
+
+
+
+
   </script>
   <body>
 	<nav id="myNav"class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -143,6 +147,17 @@
 	<a name="contact"></a>
 	
 	
-	
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script type="text/javascript">
+	window.sr = ScrollReveal();
+// Changing the defaults
+window.sr = ScrollReveal({ reset: true });
+
+// Customizing a reveal set
+
+sr.reveal('.education-main', { duration: 200 });
+sr.reveal('.columns', { duration: 1000 });
+
+</script>
   </body>
 </html>
