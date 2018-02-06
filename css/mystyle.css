@@ -27,12 +27,17 @@
 
 .hero-main{
 	    height: 80vh;
-	    background-color:#3A3276;
+	    background-image:
+		linear-gradient(#3A3276, #847EB1);
+		
 	
 }
 
 .hero-contact{
-	background-color:#AAA439;
+	background-image:
+	linear-gradient(to top,#AAA439, #D4CF6A
+);
+	
 }
 
 @media(max-width: 800px) {
