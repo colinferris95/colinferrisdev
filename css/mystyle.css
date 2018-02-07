@@ -8,6 +8,38 @@ body{
 		
  }
 
+  a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: #FFFFFF !important;
+}
+
+a:before {
+  content: ""!important;
+  position: absolute!important;
+  width: 100%!important;
+  height: 2px!important;
+  bottom: 0!important;
+  left: 0!important;
+  background-color: #FFFFFF!important;
+  visibility: hidden!important;
+  -webkit-transform: scaleX(0)!important;
+  transform: scaleX(0)!important;
+  -webkit-transition: all 0.3s ease-in-out 0s!important;
+  transition: all 0.3s ease-in-out 0s!important;
+}
+
+ a:hover:before {
+  visibility: visible!important;
+  -webkit-transform: scaleX(1)!important;
+  transform: scaleX(1)!important;
+}
+ 
+ 
 .picture-main{
 	margin-top: 70px !important;
 	margin: auto;
@@ -42,9 +74,8 @@ body{
 
 .hero-contact{
 	background-image:
-	linear-gradient(to top,#AAA439, #D4CF6A
-);
-	
+	linear-gradient(to top,#AA4139, #D4726A);
+
 }
 
 @media(max-width: 800px) {
@@ -122,8 +153,8 @@ body{
 }
 
 a.navbar-item:hover{
-	background-color:rgba(0,0,0,.08);
-	color:#361356;
+	background-color:#BC7DAC;
+	color:#FFFFFF;
 }
 
 .logo{
