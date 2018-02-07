@@ -13,35 +13,43 @@ body{
   color: #000;
   text-decoration: none;
 }
-
- a:hover {
+/*
+ a.underline:hover {
   color: #FFFFFF !important;
 }
+*/
 
-a:before {
-  content: ""!important;
-  position: absolute!important;
-  width: 100%!important;
-  height: 2px!important;
-  bottom: 0!important;
-  left: 0!important;
-  background-color: #FFFFFF!important;
-  visibility: hidden!important;
-  -webkit-transform: scaleX(0)!important;
-  transform: scaleX(0)!important;
-  -webkit-transition: all 0.3s ease-in-out 0s!important;
-  transition: all 0.3s ease-in-out 0s!important;
+a.underline:after {
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
 }
 
- a:hover:before {
-  visibility: visible!important;
-  -webkit-transform: scaleX(1)!important;
-  transform: scaleX(1)!important;
+ a.underline:hover:after {
+	 
+	 
+  width: 100%;
+  left: 0;
+  background: #fff;
+
 }
- 
- 
+
+
+@media(max-width: 1024px) {
+	a.navlinks{
+		width: 35%;
+	}
+}
+
+
 .picture-main{
-	margin-top: 70px !important;
+	margin-top: 10% !important;
 	margin: auto;
     width: 60%;
     padding: 10px;
@@ -61,8 +69,11 @@ a:before {
     width: 60%;
     padding-bottom: 60px;
 	text-align: center;
+	 
 	
 }
+
+
 
 .hero-main{
 	    height: 80vh;
@@ -162,10 +173,6 @@ a.navbar-item:hover{
 	color:#361356;
 }
 
-.desc{
-	text-align: center;
-	
-}
 
 .box {
   display: flex;
