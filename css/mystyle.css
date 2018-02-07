@@ -1,11 +1,15 @@
-
+body{
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif !important;
+}
 
  p,a,h1,h2,h3,h4,div {
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Roboto', sans-serif !important;
 		
  }
 
 .picture-main{
+	margin-top: 70px !important;
 	margin: auto;
     width: 60%;
     padding: 10px;
@@ -15,6 +19,9 @@
 	
 }
 
+.subtitle.is-2{
+	font-size:2rem;
+}
 
 .education-main{
 	
@@ -104,6 +111,7 @@
 }
 
 .navbar-menu{
+	font-weight: 600;
 	background-color:#BC7DAC;
 
 }
