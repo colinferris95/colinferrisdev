@@ -59,10 +59,41 @@ a.underline:after {
 	
 }
 
+@media(max-height: 400px) {
+	.picture-main{
+	margin-top: 10% !important;
+	margin: auto;
+    width: 80%;
+    padding: 10px;
+	padding-top: 0px;
+	text-align: center;
+	
+	
+}
+	.title.is-1{
+		font-size: 4.5vw;
+	
+	}
+	
+	.subtitle.is-2{
+	
+	font-size: 3.5vw;
+	}
+	
+	.is-size-4{
+	font-size: 2.5vw!important;	
+		
+	}
+	
+	.avatar{
+		display:none;
+	}
+}
+@media(min-height: 400px) {
 .subtitle.is-2{
 	font-size:2rem;
 }
-
+}
 .education-main{
 	
 	margin: auto;
@@ -89,7 +120,18 @@ a.underline:after {
 
 }
 
-@media(max-width: 800px) {
+@media(max-width: 800px) and (min-height:400px) {
+	
+	.picture-main{
+	margin-top: 10% !important;
+	margin: auto;
+    width: 80%;
+    padding: 10px;
+	padding-top: 0px;
+	text-align: center;
+	
+	
+}
 	.title.is-1{
 	font-size: 7vw;
 	
