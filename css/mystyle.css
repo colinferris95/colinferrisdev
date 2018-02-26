@@ -175,24 +175,24 @@ a.underline:after {
 	filter: drop-shadow(0 0 30px #333);
 	*/
 }
-
+/*
 .links img{
 	transition: transform .4s ease-in-out;
 	
 }
-
+*/
 .links img:hover{
-	transform: scale(1.05); 
+	filter: opacity(75%);
 	
 }
-
+/*
 .links div{
 	transition: transform .4s ease-in-out;
 	
 }
-
+*/
 .links div:hover{
-	transform: scale(1.05); 
+	filter: opacity(50%);
 	
 }
 
