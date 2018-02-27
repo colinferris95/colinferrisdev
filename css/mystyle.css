@@ -131,11 +131,11 @@ a.underline:after {
 	background-color:#6F4D8F;
 	
 }
-
+@media(min-width: 800px){
 .project-title{
 	text-align:center;
 }
-
+}
 @media(max-width: 800px) and (min-height:400px) {
 	
 	.picture-main{
@@ -166,7 +166,7 @@ a.underline:after {
 }
 @media(max-width: 550px) and (min-height:400px) {
 	.desc{
-		font-size: 4.2vw!important;	
+		font-size: 4.4vw!important;	
 	}
 }
 
@@ -266,6 +266,7 @@ a.navbar-item:hover{
 .button.is-link{
 	background-color:white;
 	color:#847EB1;
+	height:7vh;
 
 }
 .button.is-link:hover{
