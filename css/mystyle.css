@@ -114,10 +114,26 @@ a.underline:after {
 	
 }
 
+@media(max-width: 800px){
+	.hero-main{
+	    height: 110vh;
+	}
+}
+
+
 .hero-contact{
 	background-image:
 	linear-gradient(to top,#AA4139, #D4726A);
 
+}
+
+.hero-projects{
+	background-color:#6F4D8F;
+	
+}
+
+.project-title{
+	text-align:center;
 }
 
 @media(max-width: 800px) and (min-height:400px) {
@@ -150,7 +166,7 @@ a.underline:after {
 }
 @media(max-width: 550px) and (min-height:400px) {
 	.desc{
-		font-size: 4.6vw!important;	
+		font-size: 4.2vw!important;	
 	}
 }
 
